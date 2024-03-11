@@ -1,6 +1,12 @@
 # Forecasting-Churn-Azure-vs.-Traditional-ML-at-ABC-Telecom
 Championing Accuracy: Azure AutoML outperforms manual methods across XGBoost, Random Forest, and Logistic Regression algorithms in predicting churn at ABC Telecom
 
+Unleashing Predictive Power with Azure Cloud for Churn Prediction at ABC Telecom
+● Examined customer data using Azure Cloud to find clues about who might stop using ABC Telecom.
+● Used Azure tools like Databricks and AutoML to build models that predict if a customer will leave.
+● Made better predictions (14% better!) than before, helping ABC Telecom keep more customers happy by giving them 
+what they need before thinking about leaving
+
 ### Tasks – Manual Prediction:
 1.	Data Pre-processing (1/3):
 
