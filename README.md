@@ -55,8 +55,7 @@ what they need before thinking about leaving
         •	Separated target column.
         •	Scaled the variables.
 
-### 
-Steps for Azure AutoML:
+### Steps for Azure AutoML:
 
 1.	Storage – Azure Data Lake:
 
