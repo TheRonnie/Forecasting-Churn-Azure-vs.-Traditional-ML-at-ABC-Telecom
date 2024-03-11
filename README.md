@@ -39,10 +39,10 @@ Tasks – Manual Prediction:
 
 
 7.	Data Modeling:
-
-•	Treated dataset for outliers (0.01-0.99 quantile).
-•	Defined target column.
-•	Split dataset into test and train sets.
-•	Separated target column.
-•	Scaled the variables.
+        
+        •	Treated dataset for outliers (0.01-0.99 quantile).
+        •	Defined target column.
+        •	Split dataset into test and train sets.
+        •	Separated target column.
+        •	Scaled the variables.
 
