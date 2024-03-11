@@ -1,7 +1,7 @@
 # Forecasting-Churn-Azure-vs.-Traditional-ML-at-ABC-Telecom
 Championing Accuracy: Azure AutoML outperforms manual methods across XGBoost, Random Forest, and Logistic Regression algorithms in predicting churn at ABC Telecom
 
-Tasks – Manual Prediction:
+### Tasks – Manual Prediction:
 1.	Data Pre-processing (1/3):
 
         •	Converted all FLOAT values to 2 decimal places.
@@ -46,3 +46,46 @@ Tasks – Manual Prediction:
         •	Separated target column.
         •	Scaled the variables.
 
+### 
+Steps for Azure AutoML:
+
+1.	Storage – Azure Data Lake:
+
+        •	Ingested .csv file into Azure Data Lake.
+        •	Pre-processed .csv file stored and exported into Azure Data Lake.
+
+2.	Data Processing – Azure Databricks:
+
+        •	Data imported into Azure Databricks for processing.
+
+3.	Model Training – Azure ML:
+
+        •	AutoML model pipeline created in Azure ML.
+        •	XGBoost classifier selected as the best model with a prediction accuracy of 0.953.
+
+4.	Deploy Model as Web App:
+
+        •	Model deployed as a web service for accessibility.
+
+5.	Comparison of Prediction Accuracies:
+
+	XGBoost Classifier:
+
+        •	Employed Manually: 0.834
+        •	AutoML: 0.953
+
+	Random Forest:
+
+        •	Employed Manually: 0.781
+        •	AutoML: 0.951
+
+	Logistic Regression:
+
+        •	Employed Manually: 0.810
+        •	AutoML: 0.945
+
+## Azure AutoML consistently outperformed manual employment across all algorithms, with the XGBoost classifier providing the best prediction accuracy of 0.953.
+
+
+
+###
